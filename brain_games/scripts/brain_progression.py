@@ -11,7 +11,7 @@ def main():
     while user_try < 3:
         step = random.randint(0, 10)
         start = random.randint(0, 10)
-        length = 10
+        length = 5
         progression = [start + step * i for i in range(length)]
         missing_number = random.choice(progression)
         index = progression.index(missing_number)
