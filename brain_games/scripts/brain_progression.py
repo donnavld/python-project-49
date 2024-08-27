@@ -15,7 +15,7 @@ def main():
         progression = [start + step * i for i in range(length)]
         missing_number = random.choice(progression)
         index = progression.index(missing_number)
-        progression[index] = ' .. '
+        progression[index] = '..'
         #print('Look at a progression')
         #print(progression)
         #print(missing_number)

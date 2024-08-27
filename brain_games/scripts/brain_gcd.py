@@ -19,7 +19,7 @@ def main():
         greatest_factor = get_greatest_factor(num1, num2)
         #print (greatest_factor)
         #user_answer = input(f'Enter the  Greatest Common Factor for {num1} and {num2} : ')
-        user_answer = input(f'Question: {num1} {num2}: \nYour answer: ')
+        user_answer = input(f'Question: {num1} {num2} \nYour answer: ')
         #while not user_answer.isdigit():
             #user_answer = input('Please enter just number:')
         if greatest_factor == int(user_answer):
