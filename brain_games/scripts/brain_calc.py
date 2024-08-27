@@ -20,7 +20,7 @@ def main():
         num1 = random.randint(0, 10)
         num2 = random.randint(0, 10)
         result = operations[operation](num1, num2)
-        user_result = input(f'Question:: {num1} {operation} {num2} \nYour answer: ')
+        user_result = input(f'Question: {num1} {operation} {num2} \nYour answer: ')
         #while not used_simbols.match(user_result):
             #user_result = input('Please enter just numbers:')
         if result == int(user_result):

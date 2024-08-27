@@ -1,11 +1,11 @@
 # created by virtualenv automatically
 
-#__pycache__/
-#*.py[cod]
-#*$py.class
+__pycache__/
+*.py[cod]
+*$py.class
 
 # Virtual environment
-#.venv/
+.venv/
 
 # Poetry files
-#poetry.lock
+poetry.lock
