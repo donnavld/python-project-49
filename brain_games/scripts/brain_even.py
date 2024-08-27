@@ -22,8 +22,8 @@ def main():
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.")
             break
     if user_try == 3:
-        print(f'Congratulations! {name}')
+        print(f'Congratulations, {name}!')
     else:
         #print('You lose.')
-        print(f"Let's try again, {name}")
+        print(f"Let's try again, {name}!")
 
