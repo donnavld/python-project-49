@@ -11,7 +11,7 @@ def main():
     while user_try < 3:
         step = random.randint(0, 10)
         start = random.randint(0, 10)
-        length = 5
+        length = 10
         progression = [start + step * i for i in range(length)]
         missing_number = random.choice(progression)
         index = progression.index(missing_number)
@@ -20,7 +20,8 @@ def main():
         #print(progression)
         #print(missing_number)
         #user_number = input('Enter the missing : ')
-        user_number = input(f'Question: {progression} \nYour answer: ')
+        question = ' '.join(map(str, progression))
+        user_number = input(f'Question: {question} \nYour answer: ')
         #while not user_number.isdigit():
             #user_number = input('Please enter just numbers:')
         if int(user_number) == int(missing_number):
