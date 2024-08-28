@@ -11,9 +11,11 @@ def main():
         is_even = 'y' if set_number % 2 == 0 else 'n'
         correct_answer = 'yes' if set_number % 2 == 0 else 'no'
         user_answer = input(f'Question: {set_number} \nYour answer: ').lower()
-        # user_answer = input(f'Is this number {set_number} even? Enter y/n: ').lower()
+        # user_answer = input(f'Is this number {set_number} even? Enter y/n: ')
+        # .lower()
         # while user_answer[0] not in ['y', 'n']:
-            # user_answer = input('Please enter "yes" or "no" or just "y" or "n":').lower()
+            # user_answer = input('Please enter "yes" or "no" or just "y" 
+            # or "n":').lower()
         if is_even == user_answer[0]:
             print("Correct!")
             user_try += 1
