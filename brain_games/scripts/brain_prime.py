@@ -22,7 +22,7 @@ def main():
     while user_try < 3:
         num_random = random.randint(0, 100)
         is_prime = check_prime(num_random)
-        # user_answer = input(f'Is this number {num_random} prime? 
+        # user_answer = input(f'Is this number {num_random} prime?
         # Enter y/n :').lower()
         user_answer = input(f'Question: {num_random} \nYour answer: ').lower()
         # while user_answer[0] not in ['y', 'n']:

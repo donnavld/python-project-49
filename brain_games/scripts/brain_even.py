@@ -14,8 +14,8 @@ def main():
         # user_answer = input(f'Is this number {set_number} even? Enter y/n: ')
         # .lower()
         # while user_answer[0] not in ['y', 'n']:
-            # user_answer = input('Please enter "yes" or "no" or just "y" 
-            # or "n":').lower()
+        # user_answer = input('Please enter "yes" or "no" or just "y"
+        # or "n":').lower()
         if is_even == user_answer[0]:
             print("Correct!")
             user_try += 1
