@@ -4,7 +4,7 @@ from brain_games.cli import welcome_user
 
 def main():
     name = welcome_user()
-    #print(f'Welcome to The Progression game, {name}!\n')
+    # print(f'Welcome to The Progression game, {name}!\n')
     print('What number is missing in the progression?')
 
     user_try = 0
@@ -29,7 +29,10 @@ def main():
             user_try += 1
         else:
             # print("Incorrect.\n")
-            print(f"'{user_number}' is wrong answer ;(. Correct answer was '{missing_number}'.")
+            print(
+                f"'{user_number}' is wrong answer ;(. "
+                f"Correct answer was '{missing_number}'."
+            )
             break
 
     if user_try == 3:
@@ -38,4 +41,3 @@ def main():
     else:
         # print('You lose.')
         print(f"Let's try again, {name}!")
-

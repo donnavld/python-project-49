@@ -28,7 +28,10 @@ def main():
             user_try += 1
         else:
             # print("Incorrect.")
-            print(f"'{user_result}' is wrong answer ;(. Correct answer was '{result}'.")
+            print(
+                f"'{user_result}' is wrong answer ;(. "
+                f"Correct answer was '{result}'."
+            )
             break
     if user_try == 3:
         # print('Congratulations! You won!')
@@ -36,4 +39,3 @@ def main():
     else:
         # print('You lose.')
         print(f"Let's try again, {name}!")
-
